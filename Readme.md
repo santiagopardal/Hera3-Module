@@ -12,7 +12,7 @@ include ':NYTimesData'
 project(':NYTimesData').projectDir = new File(rootDir, 'libs/NYTimesData/NYTimesData/')
 ```
 3. Incluir la librería en build.gradle:
-`implementation project(':NYTimesData')`
+```implementation project(':NYTimesData')```
 4. Debería de mostrarse una opción para sincronizar el proyecto ("Sync Now"), seleccionarla.
 5. Listo! ✅
 
@@ -20,5 +20,5 @@ project(':NYTimesData').projectDir = new File(rootDir, 'libs/NYTimesData/NYTimes
 1. Obtener el servicio mediante su módulo 🤲 :
 `val nyTimesArticleService = NYTimesModule.nyTimesArticleService`
 2. Se puede obtener artículos a través de la función `getArticle(artistName)` de NYTimesArticleService
-`val article = nyTimesArticleService.getArticle("Drake")`
+```val article = nyTimesArticleService.getArticle("Drake")```
 El artículo va a contener toda la información mencionada anteriormente y estará disponible para utilizarla.
