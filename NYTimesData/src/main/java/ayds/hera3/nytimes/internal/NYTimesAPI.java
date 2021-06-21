@@ -1,4 +1,4 @@
-package ayds.hera3.nytimes;
+package ayds.hera3.nytimes.internal;
 
 
 import retrofit2.Call;

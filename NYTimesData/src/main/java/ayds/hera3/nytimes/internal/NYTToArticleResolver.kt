@@ -1,4 +1,4 @@
-package ayds.hera3.nytimes
+package ayds.hera3.nytimes.internal
 
 import ayds.hera3.nytimes.entities.*
 import com.google.gson.Gson

@@ -1,5 +1,6 @@
 package ayds.hera3.nytimes
 
+import ayds.hera3.nytimes.internal.*
 import retrofit2.Retrofit
 import retrofit2.converter.scalars.ScalarsConverterFactory
 
