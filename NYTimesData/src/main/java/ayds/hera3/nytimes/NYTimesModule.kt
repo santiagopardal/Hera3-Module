@@ -1,4 +1,4 @@
-package ayds.hera3.nytimes.external
+package ayds.hera3.nytimes
 
 import retrofit2.Retrofit
 import retrofit2.converter.scalars.ScalarsConverterFactory
