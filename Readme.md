@@ -1,8 +1,8 @@
 # NYTimesData 📰
 NYTimesData  es una librería que obtiene información de un artista a través del API del diario New York Times, la información buscada contiene:
-👉 Información del artista
-👉 URL del artículo donde se encontró esta información
-👉 La URL de la imágen del logo del diario "The New York Times"
+-👉 Información del artista
+-👉 URL del artículo donde se encontró esta información
+-👉 La URL de la imágen del logo del diario "The New York Times"
 
 # Instalación 🦾
 1. Incluir la librería en la carpeta libs.
