@@ -1,6 +1,7 @@
 package ayds.hera3.nytimes.internal
 
 import ayds.hera3.nytimes.entities.Article
+import ayds.hera3.nytimes.NYTimesArticleService
 
 internal class NYTimesArticleServiceImpl(
     private val nytArticleAPI: NYTimesAPI,
