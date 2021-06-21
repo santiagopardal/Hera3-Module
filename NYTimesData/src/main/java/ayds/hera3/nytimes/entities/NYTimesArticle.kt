@@ -3,7 +3,7 @@ package ayds.hera3.nytimes.entities
 interface Article {
     val artistInfo: String
     val url: String
-    var logoUrl: String
+    val logoUrl: String
 }
 
 data class NYTimesArticle(
