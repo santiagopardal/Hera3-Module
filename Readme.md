@@ -20,7 +20,9 @@ implementation project(':NYTimesData')
 
 # Uso 🙌
 1. Obtener el servicio mediante su módulo 🤲 :
-`val nyTimesArticleService = NYTimesModule.nyTimesArticleService`
+```
+val nyTimesArticleService = NYTimesModule.nyTimesArticleService
+```
 2. Se puede obtener artículos a través de la función `getArticle(artistName)` de NYTimesArticleService
 ```
 val article = nyTimesArticleService.getArticle("Drake")
