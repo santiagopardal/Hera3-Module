@@ -28,3 +28,7 @@ val nyTimesArticleService = NYTimesModule.nyTimesArticleService
 val article = nyTimesArticleService.getArticle("Drake")
 ```
 El artículo va a contener toda la información mencionada anteriormente y estará disponible para utilizarla.
+
+
+## Casos a tener en cuenta ✍️
+1. En caso de no tener conexión a internet o no encontrar información del artista, se retornará un artículo vacio (EmptyArticle 🤷‍♂️ ).
