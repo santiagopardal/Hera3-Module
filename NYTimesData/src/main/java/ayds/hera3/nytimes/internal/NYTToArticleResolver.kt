@@ -10,7 +10,7 @@ private const val WEB_URL = "web_url"
 private const val ABSTRACT = "abstract"
 private const val RESPONSE = "response"
 
-interface NYTToArticleResolver {
+internal interface NYTToArticleResolver {
     fun getFromExternalData(data: String?): Article
 }
 
